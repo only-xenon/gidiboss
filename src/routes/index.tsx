@@ -261,15 +261,15 @@ function Businesses() {
     },
     {
       icon: "🎓",
-      name: "Aeroport Academy",
+      name: "​ACATM",
       tag: "Training & Capacity",
       desc: "Industry-recognised training arm equipping the next generation of travel professionals with practical, certified skills.",
       features: ["IATA & internal certifications", "3,000+ trained", "Travelpreneur bootcamps", "Industry partnerships"],
     },
     {
       icon: "◆",
-      name: "Aeroport Consulting",
-      tag: "Advisory",
+      name: "​TRAVCONEXPO",
+      tag: "Conference & Advisory",
       desc: "Strategic advisory for travel businesses, destination marketers and aviation stakeholders building for scale.",
       features: ["Business architecture", "Brand & growth", "Process & operations", "Public-private programs"],
     },
