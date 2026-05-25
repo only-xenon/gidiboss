@@ -212,7 +212,7 @@ function Book() {
         </div>
 
         <div>
-          <SectionHeader eyebrow="New Release" title={<>Build something from <span className="italic text-gold">nothing.</span></>} />
+          <SectionHeader eyebrow="​" title={<>Build something from <span className="italic text-gold">nothing.</span></>} />
           <p className="text-cream/80 leading-[1.9] mb-5">
             <span className="font-serif italic text-gold">The Drive to Start</span> is a
             practical, hard-won roadmap for founders who refuse to wait for perfect
