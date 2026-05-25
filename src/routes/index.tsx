@@ -1,5 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import drGideon from "@/assets/dr-gideon.jpg";
+import bookFront from "@/assets/drive-to-start-front.png";
+import bookBack from "@/assets/drive-to-start-back.png";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -191,26 +193,21 @@ function Book() {
       <div className="absolute inset-0 grid-bg pointer-events-none opacity-50" />
       <div className="relative max-w-7xl mx-auto grid md:grid-cols-[1fr_1.2fr] gap-12 md:gap-20 items-center">
         {/* Book visual */}
-        <div className="relative flex justify-center">
+        <div className="relative flex justify-center items-center">
           <div className="absolute inset-0 m-auto w-72 h-72 rounded-full bg-gold/10 blur-3xl" />
-          <div className="relative w-[280px] md:w-[340px] aspect-[2/3] hairline shadow-2xl flex flex-col justify-between p-8 text-center"
-               style={{ background: "linear-gradient(160deg, #0d1a30 0%, #152340 60%, #1a3a5c 100%)" }}>
-            <div>
-              <div className="text-[0.65rem] tracking-[0.3em] text-gold uppercase mb-6">A New Book</div>
-              <div className="gold-divider mx-auto mb-8" />
-              <h3 className="font-serif font-semibold text-4xl leading-[1.05] text-cream">
-                The Drive<br /><span className="italic text-gold">to Start</span>
-              </h3>
-              <p className="font-serif italic text-muted-cool mt-6 text-sm">
-                A Practical Roadmap to Building Businesses from Nothing
-              </p>
-            </div>
-            <div>
-              <div className="gold-divider mx-auto mb-4" />
-              <p className="text-[0.7rem] tracking-[0.18em] uppercase text-gold-pale">
-                Dr. Oludayo Taiwo Gideon
-              </p>
-            </div>
+          <div className="relative flex gap-4 md:gap-6 items-center">
+            <img
+              src={bookBack}
+              alt="Back cover of The Drive to Start by Dr. Oludayo Taiwo Gideon"
+              className="relative w-[160px] md:w-[210px] aspect-[3/4] object-cover hairline shadow-2xl -rotate-3 hover:rotate-0 transition-transform duration-500"
+              loading="lazy"
+            />
+            <img
+              src={bookFront}
+              alt="The Drive to Start — front cover"
+              className="relative w-[200px] md:w-[270px] aspect-[3/4] object-cover hairline shadow-2xl rotate-2 hover:rotate-0 transition-transform duration-500 z-10"
+              loading="lazy"
+            />
           </div>
         </div>
 
