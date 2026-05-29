@@ -32,14 +32,15 @@ export const Route = createFileRoute("/")({
   component: Home,
 });
 
-const BOOK_URL = "https://selar.co/m/DrOludayoTaiwoGideon";
+const BOOK_URL =
+  "https://www.amazon.com/DRIVE-START-Oludayo-Taiwo-Gideon-ebook/dp/B0GR82HP5Y";
 
 function Nav() {
   const links = [
     { href: "#about", label: "About" },
     { href: "#book", label: "The Book" },
     { href: "#businesses", label: "Our Group" },
-    { href: "#travconexpo", label: "TRAVCONEXPO" },
+    { href: "#travconexpo", label: "Travconexpo" },
     { href: "#contact", label: "Contact" },
   ];
   return (
@@ -83,10 +84,10 @@ function Hero() {
             Ph.D &nbsp;·&nbsp; FCAI &nbsp;·&nbsp; MIHI &nbsp;·&nbsp; MITPN &nbsp;·&nbsp; DTTM &nbsp;·&nbsp; JP
           </p>
           <p className="text-cream/75 max-w-xl mb-10 leading-[1.85]">
-            Visionary leader, aviation &amp; travel industry pioneer, and convener of
-            Nigeria's first Travelpreneur Conference &amp; Expo. Building world-class
-            travel institutions and empowering the next generation of travel
-            professionals.
+            Visionary leader, aviation &amp; travel industry pioneer, published author and
+            convener of Nigeria's first Travelpreneur Conference &amp; Expo. Building
+            world-class travel institutions and empowering the next generation of travel
+            professionals across Africa.
           </p>
           <div className="flex flex-wrap gap-3">
             <a href="#about" className="inline-flex items-center gap-3 px-8 py-3.5 hairline text-gold text-[0.78rem] tracking-[0.14em] uppercase font-medium hover:bg-gold hover:text-navy transition-colors">
@@ -122,7 +123,7 @@ function Stats() {
     { n: "3,000+", l: "Professionals Trained" },
     { n: "10+", l: "Years of Excellence" },
     { n: "3", l: "Business Pillars" },
-    { n: "2026", l: "TRAVCONEXPO Ed. 2" },
+    { n: "2026", l: "Travconexpo Ed. 2" },
   ];
   return (
     <div className="hairline-t hairline-b grid grid-cols-2 md:grid-cols-4 gap-4 py-10 px-6 md:px-16" style={{ background: "rgba(13,26,48,0.6)" }}>
@@ -158,20 +159,23 @@ function About() {
           <SectionHeader eyebrow="About" title={<>A life built on vision, <span className="italic text-gold">execution</span> and service.</>} />
           <div className="space-y-5 text-cream/75 leading-[1.9] text-[0.98rem]">
             <p>
-              Dr. Oludayo Taiwo Gideon — known across the travel and aviation industry
-              as <span className="text-gold">GidiBoss</span> — is the Group Managing
-              Director and CEO of Aeroport Group, a multi-arm enterprise spanning travel,
-              hospitality, training and consulting.
+              Dr. Oludayo Taiwo Gideon — known widely as{" "}
+              <span className="text-gold-pale font-medium">GidiBoss</span> or Dr. OTG —
+              is the Group Managing Director and CEO of Aeroport Group of Companies, a
+              multi-award-winning conglomerate with ventures spanning aviation, travel,
+              logistics, hospitality, real estate and consulting.
             </p>
             <p>
-              A trailblazing entrepreneur with a record of turning challenges into
-              opportunities, he is the Convener of TRAVCONEXPO — Nigeria's first
-              Travelpreneur Conference &amp; Expo — and a passionate mentor to the next
-              generation of travel professionals.
+              From humble beginnings — working as a cleaner, bakery assistant and riding
+              motorcycles for survival — Dr. OTG built his first business without
+              capital or connections. Today he is proof that purpose and grit can turn
+              anyone into a builder of lasting impact.
             </p>
             <p>
-              His work bridges the gap between policy, practice and people, raising the
-              standard of professionalism across Africa's travel ecosystem.
+              He holds a Postgraduate Diploma in Tourism &amp; Hospitality from NIHOTOUR
+              and a Doctorate in Business Administration from Prowess University (USA).
+              He leads the GidiBoss Heart of Kindness Initiative, empowering lives
+              through scholarships and youth programmes.
             </p>
           </div>
           <div className="flex flex-wrap gap-2 mt-8">
@@ -212,15 +216,16 @@ function Book() {
         </div>
 
         <div>
-          <SectionHeader eyebrow="​" title={<>Build something from <span className="italic text-gold">nothing.</span></>} />
+          <SectionHeader eyebrow="Published 2025" title={<>Build something from <span className="italic text-gold">nothing.</span></>} />
           <p className="text-cream/80 leading-[1.9] mb-5">
-            <span className="font-serif italic text-gold">The Drive to Start</span> is a
-            practical, hard-won roadmap for founders who refuse to wait for perfect
-            conditions. Drawn from Dr. Gideon's decade of building Aeroport Group from
-            the ground up, it distills the mindset, systems and decisions behind
-            businesses that survive their first chapters — and scale.
+            <span className="font-serif italic text-gold">The Drive to Start</span> —
+            published 2025 — is a practical, hard-won roadmap for founders who refuse
+            to wait for perfect conditions. Drawn from Dr. Gideon's decade of building
+            Aeroport Group from the ground up, it distils the mindset, systems and
+            decisions behind businesses that survive their first chapters — and scale.
+            Foreword by Dr. Linus Okorie MFR.
           </p>
-          <ul className="space-y-3 mb-9">
+          <ul className="space-y-3 mb-6">
             {[
               "Turn limited resources into real momentum",
               "The founder operating system that actually works",
@@ -233,16 +238,27 @@ function Book() {
               </li>
             ))}
           </ul>
+          <div className="flex items-start gap-4 my-7 bg-gold/[0.04] hairline p-5">
+            <div className="w-[3px] self-stretch bg-gold shrink-0" />
+            <div>
+              <p className="font-serif italic text-cream/85 text-lg leading-[1.7]">
+                "Raw. Relatable. Faith-driven. If you've been waiting for perfect
+                conditions — this is your wake-up call."
+              </p>
+              <span className="block mt-2 text-xs tracking-wider text-muted-cool">— The Drive to Start</span>
+            </div>
+          </div>
           <div className="flex flex-wrap gap-3">
             <a href={BOOK_URL} target="_blank" rel="noopener" className="inline-flex items-center gap-3 px-8 py-3.5 bg-gold text-navy text-[0.78rem] tracking-[0.14em] uppercase font-semibold hover:bg-gold-light transition-colors">
-              Buy on Selar →
+              Buy on Amazon →
             </a>
             <a href="#contact" className="inline-flex items-center gap-3 px-8 py-3.5 hairline text-gold text-[0.78rem] tracking-[0.14em] uppercase font-medium hover:bg-gold hover:text-navy transition-colors">
               Bulk Orders
             </a>
           </div>
           <p className="mt-6 text-xs text-muted-cool">
-            Launched at the maiden edition of TRAVCONEXPO, Federal Palace Hotel, Lagos.
+            Launched at the inaugural TRAVCONEXPO 2025 · Federal Palace Hotel, Victoria
+            Island, Lagos.
           </p>
         </div>
       </div>
@@ -254,24 +270,45 @@ function Businesses() {
   const items = [
     {
       icon: "✈",
-      name: "Aeroport Travels",
-      tag: "Travel & Aviation",
-      desc: "IATA-accredited travel management for corporate clients, government and discerning travellers across West Africa.",
-      features: ["Corporate travel desks", "Visa & protocol", "Premium leisure", "Group & MICE"],
+      name: "Aeroport Travels & Tours",
+      tag: "IATA Approved · NANTA Member · Est. 2014",
+      desc: "Multi-award winning, full-service travel management company with offices in Lagos, Port Harcourt & Aba — delivering unbeatable travel experiences for corporate, government and leisure clients across West Africa.",
+      features: [
+        "Flight Tickets — Local & International",
+        "Visa Advisory (UK, USA, Canada, Schengen, Dubai)",
+        "Hotel Accommodation Worldwide",
+        "Corporate & Tour Packages",
+        "Pilgrim & Group Travel",
+        "Protocol & Airport Services",
+      ],
     },
     {
       icon: "🎓",
-      name: "​ACATM",
-      tag: "Training & Capacity",
-      desc: "Industry-recognised training arm equipping the next generation of travel professionals with practical, certified skills.",
-      features: ["IATA & internal certifications", "3,000+ trained", "Travelpreneur bootcamps", "Industry partnerships"],
+      name: "ACATM",
+      tag: "NCAA-Approved Aviation College · ATO/AA/031",
+      desc: "Aeroport College of Aviation & Travel Management — Nigeria's premier NCAA-licensed aviation training institution. NANTA & ASTA registered, producing world-class aviation and travel professionals since 2014.",
+      features: [
+        "Cabin Crew Training (B737 CL/NG)",
+        "Flight Dispatcher Training",
+        "Aviation Management & Operations",
+        "Drone Piloting & Helicopter Landing Officer",
+        "Air Ticketing & Reservation",
+        "Tourism & Hospitality Management",
+      ],
     },
     {
-      icon: "◆",
-      name: "​TRAVCONEXPO",
-      tag: "Conference & Advisory",
-      desc: "Strategic advisory for travel businesses, destination marketers and aviation stakeholders building for scale.",
-      features: ["Business architecture", "Brand & growth", "Process & operations", "Public-private programs"],
+      icon: "★",
+      name: "TRAVCONEXPO",
+      tag: "Nigeria's First Travelpreneur Conference",
+      desc: "Organised by TRAVCONEX Projects Ltd — a subsidiary of Aeroport Group. Endorsed by ITPN, NANTA & FTAN. Building a movement that puts African Travelpreneurs on the world stage.",
+      features: [
+        "2025 Inaugural Edition — Federal Palace Hotel",
+        "2026 Theme: The Next Frontier",
+        "Sept 3–4, 2026 · Balmoral Convention Centre",
+        "B2B sessions, masterclasses & networking",
+        "Governance, revenue & digital innovation",
+        "Vision: 5,000+ Travelpreneurs in 5 years",
+      ],
     },
   ];
   return (
@@ -308,11 +345,13 @@ function Expo() {
           <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-gold/10 hairline text-gold text-[0.68rem] tracking-[0.16em] uppercase mb-6">
             Flagship Event · Edition 2
           </div>
-          <SectionHeader eyebrow="TRAVCONEXPO 2026" title={<>Where the travel industry <span className="italic text-gold">convenes.</span></>} />
+          <SectionHeader eyebrow="Travconexpo 2026" title={<>Where the travel industry <span className="italic text-gold">convenes.</span></>} />
           <p className="text-cream/75 leading-[1.9]">
-            TRAVCONEXPO is Nigeria's first Travelpreneur Conference &amp; Expo — a
-            gathering of operators, regulators, founders and thinkers shaping the next
-            decade of African travel.
+            Organised by TRAVCONEX Projects Ltd — a subsidiary of Aeroport Group —
+            TRAVCONEXPO is Nigeria's first dedicated Travelpreneur Conference &amp;
+            Expo. Building on a landmark inaugural edition in 2025, Edition 2 brings
+            together operators, regulators, founders and innovators shaping the next
+            decade of African travel. Endorsed by ITPN, NANTA &amp; FTAN.
           </p>
           <div className="expo-quote my-8 border-l-2 border-gold pl-6 py-4 bg-gold/[0.04]">
             <p className="font-serif italic text-cream text-lg leading-[1.7]">
@@ -321,8 +360,9 @@ function Expo() {
             </p>
             <cite className="block mt-3 text-xs not-italic tracking-wider text-gold">— Dr. Oludayo Taiwo Gideon</cite>
           </div>
-          <div className="font-serif text-4xl font-semibold text-gold leading-tight">September 2026</div>
-          <p className="text-sm text-muted-cool mt-1">Federal Palace Hotel · Lagos, Nigeria</p>
+          <div className="font-serif text-4xl font-semibold text-gold leading-tight">September 3–4, 2026</div>
+          <p className="text-sm text-muted-cool mt-1">Balmoral Convention Centre, Federal Palace Hotel · Victoria Island, Lagos</p>
+          <p className="text-xs text-muted-cool italic mt-3">Theme: "The Next Frontier: Expanding Opportunities in a Connected Travel World"</p>
         </div>
 
         <div className="relative p-10 md:p-14 hairline text-center overflow-hidden" style={{ background: "var(--navy-light)" }}>
