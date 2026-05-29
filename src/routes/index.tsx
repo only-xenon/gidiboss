@@ -216,15 +216,16 @@ function Book() {
         </div>
 
         <div>
-          <SectionHeader eyebrow="​" title={<>Build something from <span className="italic text-gold">nothing.</span></>} />
+          <SectionHeader eyebrow="Published 2025" title={<>Build something from <span className="italic text-gold">nothing.</span></>} />
           <p className="text-cream/80 leading-[1.9] mb-5">
-            <span className="font-serif italic text-gold">The Drive to Start</span> is a
-            practical, hard-won roadmap for founders who refuse to wait for perfect
-            conditions. Drawn from Dr. Gideon's decade of building Aeroport Group from
-            the ground up, it distills the mindset, systems and decisions behind
-            businesses that survive their first chapters — and scale.
+            <span className="font-serif italic text-gold">The Drive to Start</span> —
+            published 2025 — is a practical, hard-won roadmap for founders who refuse
+            to wait for perfect conditions. Drawn from Dr. Gideon's decade of building
+            Aeroport Group from the ground up, it distils the mindset, systems and
+            decisions behind businesses that survive their first chapters — and scale.
+            Foreword by Dr. Linus Okorie MFR.
           </p>
-          <ul className="space-y-3 mb-9">
+          <ul className="space-y-3 mb-6">
             {[
               "Turn limited resources into real momentum",
               "The founder operating system that actually works",
@@ -237,16 +238,27 @@ function Book() {
               </li>
             ))}
           </ul>
+          <div className="flex items-start gap-4 my-7 bg-gold/[0.04] hairline p-5">
+            <div className="w-[3px] self-stretch bg-gold shrink-0" />
+            <div>
+              <p className="font-serif italic text-cream/85 text-lg leading-[1.7]">
+                "Raw. Relatable. Faith-driven. If you've been waiting for perfect
+                conditions — this is your wake-up call."
+              </p>
+              <span className="block mt-2 text-xs tracking-wider text-muted-cool">— The Drive to Start</span>
+            </div>
+          </div>
           <div className="flex flex-wrap gap-3">
             <a href={BOOK_URL} target="_blank" rel="noopener" className="inline-flex items-center gap-3 px-8 py-3.5 bg-gold text-navy text-[0.78rem] tracking-[0.14em] uppercase font-semibold hover:bg-gold-light transition-colors">
-              Buy on Selar →
+              Buy on Amazon →
             </a>
             <a href="#contact" className="inline-flex items-center gap-3 px-8 py-3.5 hairline text-gold text-[0.78rem] tracking-[0.14em] uppercase font-medium hover:bg-gold hover:text-navy transition-colors">
               Bulk Orders
             </a>
           </div>
           <p className="mt-6 text-xs text-muted-cool">
-            Launched at the maiden edition of TRAVCONEXPO, Federal Palace Hotel, Lagos.
+            Launched at the inaugural TRAVCONEXPO 2025 · Federal Palace Hotel, Victoria
+            Island, Lagos.
           </p>
         </div>
       </div>
