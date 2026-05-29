@@ -32,7 +32,8 @@ export const Route = createFileRoute("/")({
   component: Home,
 });
 
-const BOOK_URL = "https://selar.co/m/DrOludayoTaiwoGideon";
+const BOOK_URL =
+  "https://www.amazon.com/DRIVE-START-Oludayo-Taiwo-Gideon-ebook/dp/B0GR82HP5Y";
 
 function Nav() {
   const links = [
