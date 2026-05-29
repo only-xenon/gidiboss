@@ -345,11 +345,13 @@ function Expo() {
           <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-gold/10 hairline text-gold text-[0.68rem] tracking-[0.16em] uppercase mb-6">
             Flagship Event · Edition 2
           </div>
-          <SectionHeader eyebrow="TRAVCONEXPO 2026" title={<>Where the travel industry <span className="italic text-gold">convenes.</span></>} />
+          <SectionHeader eyebrow="Travconexpo 2026" title={<>Where the travel industry <span className="italic text-gold">convenes.</span></>} />
           <p className="text-cream/75 leading-[1.9]">
-            TRAVCONEXPO is Nigeria's first Travelpreneur Conference &amp; Expo — a
-            gathering of operators, regulators, founders and thinkers shaping the next
-            decade of African travel.
+            Organised by TRAVCONEX Projects Ltd — a subsidiary of Aeroport Group —
+            TRAVCONEXPO is Nigeria's first dedicated Travelpreneur Conference &amp;
+            Expo. Building on a landmark inaugural edition in 2025, Edition 2 brings
+            together operators, regulators, founders and innovators shaping the next
+            decade of African travel. Endorsed by ITPN, NANTA &amp; FTAN.
           </p>
           <div className="expo-quote my-8 border-l-2 border-gold pl-6 py-4 bg-gold/[0.04]">
             <p className="font-serif italic text-cream text-lg leading-[1.7]">
@@ -358,8 +360,9 @@ function Expo() {
             </p>
             <cite className="block mt-3 text-xs not-italic tracking-wider text-gold">— Dr. Oludayo Taiwo Gideon</cite>
           </div>
-          <div className="font-serif text-4xl font-semibold text-gold leading-tight">September 2026</div>
-          <p className="text-sm text-muted-cool mt-1">Federal Palace Hotel · Lagos, Nigeria</p>
+          <div className="font-serif text-4xl font-semibold text-gold leading-tight">September 3–4, 2026</div>
+          <p className="text-sm text-muted-cool mt-1">Balmoral Convention Centre, Federal Palace Hotel · Victoria Island, Lagos</p>
+          <p className="text-xs text-muted-cool italic mt-3">Theme: "The Next Frontier: Expanding Opportunities in a Connected Travel World"</p>
         </div>
 
         <div className="relative p-10 md:p-14 hairline text-center overflow-hidden" style={{ background: "var(--navy-light)" }}>
