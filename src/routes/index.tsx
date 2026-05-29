@@ -84,10 +84,10 @@ function Hero() {
             Ph.D &nbsp;·&nbsp; FCAI &nbsp;·&nbsp; MIHI &nbsp;·&nbsp; MITPN &nbsp;·&nbsp; DTTM &nbsp;·&nbsp; JP
           </p>
           <p className="text-cream/75 max-w-xl mb-10 leading-[1.85]">
-            Visionary leader, aviation &amp; travel industry pioneer, and convener of
-            Nigeria's first Travelpreneur Conference &amp; Expo. Building world-class
-            travel institutions and empowering the next generation of travel
-            professionals.
+            Visionary leader, aviation &amp; travel industry pioneer, published author and
+            convener of Nigeria's first Travelpreneur Conference &amp; Expo. Building
+            world-class travel institutions and empowering the next generation of travel
+            professionals across Africa.
           </p>
           <div className="flex flex-wrap gap-3">
             <a href="#about" className="inline-flex items-center gap-3 px-8 py-3.5 hairline text-gold text-[0.78rem] tracking-[0.14em] uppercase font-medium hover:bg-gold hover:text-navy transition-colors">
