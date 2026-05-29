@@ -123,7 +123,7 @@ function Stats() {
     { n: "3,000+", l: "Professionals Trained" },
     { n: "10+", l: "Years of Excellence" },
     { n: "3", l: "Business Pillars" },
-    { n: "2026", l: "TRAVCONEXPO Ed. 2" },
+    { n: "2026", l: "Travconexpo Ed. 2" },
   ];
   return (
     <div className="hairline-t hairline-b grid grid-cols-2 md:grid-cols-4 gap-4 py-10 px-6 md:px-16" style={{ background: "rgba(13,26,48,0.6)" }}>
