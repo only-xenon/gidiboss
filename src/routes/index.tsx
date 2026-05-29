@@ -159,20 +159,23 @@ function About() {
           <SectionHeader eyebrow="About" title={<>A life built on vision, <span className="italic text-gold">execution</span> and service.</>} />
           <div className="space-y-5 text-cream/75 leading-[1.9] text-[0.98rem]">
             <p>
-              Dr. Oludayo Taiwo Gideon — known across the travel and aviation industry
-              as <span className="text-gold">GidiBoss</span> — is the Group Managing
-              Director and CEO of Aeroport Group, a multi-arm enterprise spanning travel,
-              hospitality, training and consulting.
+              Dr. Oludayo Taiwo Gideon — known widely as{" "}
+              <span className="text-gold-pale font-medium">GidiBoss</span> or Dr. OTG —
+              is the Group Managing Director and CEO of Aeroport Group of Companies, a
+              multi-award-winning conglomerate with ventures spanning aviation, travel,
+              logistics, hospitality, real estate and consulting.
             </p>
             <p>
-              A trailblazing entrepreneur with a record of turning challenges into
-              opportunities, he is the Convener of TRAVCONEXPO — Nigeria's first
-              Travelpreneur Conference &amp; Expo — and a passionate mentor to the next
-              generation of travel professionals.
+              From humble beginnings — working as a cleaner, bakery assistant and riding
+              motorcycles for survival — Dr. OTG built his first business without
+              capital or connections. Today he is proof that purpose and grit can turn
+              anyone into a builder of lasting impact.
             </p>
             <p>
-              His work bridges the gap between policy, practice and people, raising the
-              standard of professionalism across Africa's travel ecosystem.
+              He holds a Postgraduate Diploma in Tourism &amp; Hospitality from NIHOTOUR
+              and a Doctorate in Business Administration from Prowess University (USA).
+              He leads the GidiBoss Heart of Kindness Initiative, empowering lives
+              through scholarships and youth programmes.
             </p>
           </div>
           <div className="flex flex-wrap gap-2 mt-8">
