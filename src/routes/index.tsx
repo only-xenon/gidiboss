@@ -40,7 +40,7 @@ function Nav() {
     { href: "#about", label: "About" },
     { href: "#book", label: "The Book" },
     { href: "#businesses", label: "Our Group" },
-    { href: "#travconexpo", label: "TRAVCONEXPO" },
+    { href: "#travconexpo", label: "Travconexpo" },
     { href: "#contact", label: "Contact" },
   ];
   return (
