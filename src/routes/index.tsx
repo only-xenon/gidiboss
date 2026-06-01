@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import drGideon from "@/assets/dr-gideon.jpg";
+import drGideon from "@/assets/dr-gideon-new.jpg";
 import bookFront from "@/assets/drive-to-start-front.png";
 import bookBack from "@/assets/drive-to-start-back.png";
 
