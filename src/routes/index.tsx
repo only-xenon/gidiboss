@@ -1,7 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router";
-import drGideon from "@/assets/dr-gideon-new-v2.jpg";
-import bookFront from "@/assets/drive-to-start-front.png";
-import bookBack from "@/assets/drive-to-start-back.png";
+import drGideonHero from "@/assets/dr-gideon-hero.webp";
+import drGideonAbout from "@/assets/dr-gideon-about.webp";
+import bookFront from "@/assets/drive-to-start-front.webp";
+import bookBack from "@/assets/drive-to-start-back.webp";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -104,7 +105,7 @@ function Hero() {
           <div className="absolute -top-3 -left-3 right-3 bottom-3 hairline pointer-events-none" />
           <div className="absolute -inset-6 rounded-full border border-gold/10 pointer-events-none" />
           <img
-            src={drGideon}
+            src={drGideonHero}
             alt="Dr. Oludayo Taiwo Gideon, Group CEO Aeroport Group"
             className="relative w-full aspect-[4/5] object-cover object-top hairline"
             loading="eager"
@@ -153,7 +154,7 @@ function About() {
       <div className="max-w-7xl mx-auto grid md:grid-cols-[1fr_1.5fr] gap-12 md:gap-20 items-start">
         <div className="relative">
           <div className="absolute -top-3 -left-3 right-3 bottom-3 hairline pointer-events-none" />
-          <img src={drGideon} alt="Portrait of Dr. Oludayo Taiwo Gideon" className="relative w-full aspect-[3/4] object-cover hairline" />
+          <img src={drGideonAbout} alt="Portrait of Dr. Oludayo Taiwo Gideon" className="relative w-full aspect-[3/4] object-cover hairline" />
         </div>
         <div>
           <SectionHeader eyebrow="About" title={<>A life built on vision, <span className="italic text-gold">execution</span> and service.</>} />
