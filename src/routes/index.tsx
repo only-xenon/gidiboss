@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
-import drGideon from "@/assets/dr-gideon.webp";
-import bookFront from "@/assets/drive-to-start-front.webp";
-import bookBack from "@/assets/drive-to-start-back.webp";
+import drGideon from "@/assets/dr-gideon-new-v2.jpg";
+import bookFront from "@/assets/drive-to-start-front.png";
+import bookBack from "@/assets/drive-to-start-back.png";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -249,7 +249,7 @@ function Book() {
             </div>
           </div>
           <div className="flex flex-wrap gap-3">
-            <a href={BOOK_URL} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 px-8 py-3.5 hairline text-gold text-[0.78rem] tracking-[0.14em] uppercase font-medium hover:bg-gold hover:text-navy transition-colors">
+            <a href={BOOK_URL} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 px-8 py-3.5 bg-gold text-navy text-[0.78rem] tracking-[0.14em] uppercase font-semibold hover:bg-gold-light transition-colors">
               Buy on Amazon →
             </a>
             <a href="https://selar.com/thedrivetostart" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 px-8 py-3.5 hairline text-gold text-[0.78rem] tracking-[0.14em] uppercase font-medium hover:bg-gold hover:text-navy transition-colors">
