@@ -249,8 +249,11 @@ function Book() {
             </div>
           </div>
           <div className="flex flex-wrap gap-3">
-            <a href={BOOK_URL} target="_blank" rel="noopener" className="inline-flex items-center gap-3 px-8 py-3.5 bg-gold text-navy text-[0.78rem] tracking-[0.14em] uppercase font-semibold hover:bg-gold-light transition-colors">
+            <a href={BOOK_URL} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 px-8 py-3.5 bg-gold text-navy text-[0.78rem] tracking-[0.14em] uppercase font-semibold hover:bg-gold-light transition-colors">
               Buy on Amazon →
+            </a>
+            <a href="https://selar.com/thedrivetostart" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 px-8 py-3.5 hairline text-gold text-[0.78rem] tracking-[0.14em] uppercase font-medium hover:bg-gold hover:text-navy transition-colors">
+              Buy on Selar →
             </a>
             <a href="#contact" className="inline-flex items-center gap-3 px-8 py-3.5 hairline text-gold text-[0.78rem] tracking-[0.14em] uppercase font-medium hover:bg-gold hover:text-navy transition-colors">
               Bulk Orders
